@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h1>{{ site.name }}</h1>
+{% for post in site.posts %}
+<hr />
+<a class="indexList" href="{{ post.url }}">
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.excerpt }}</p>
+</a>
+{% endfor %}
+<hr />
+{% include copyright.html %}
