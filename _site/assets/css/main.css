@@ -65,6 +65,17 @@ h1, .indexList h2 {
     margin-right: 15px;
 }
 
+.blog hr {
+    width: 90%;
+}
+
+/* Blog Type Defination */
+
+.blog-chinese p::before {
+    content: "　　"; /* Two full-width spaces */
+    display: inline;
+}
+
 
 
 

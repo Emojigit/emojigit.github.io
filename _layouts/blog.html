@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+<div class="blog blog-{% if page.type %}{{ page.type }}{% else %}default{% endif %}">
 <div style="margin-top:10px"><a href="/">&lt; Back to mainpage</a></div>
 <h1>{{ page.title }}</h1>
 {{ content }}
+</div>
 <hr />
 {% include copyright.html %}
