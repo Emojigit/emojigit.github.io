@@ -69,6 +69,36 @@ h1, .indexList h2 {
     width: 90%;
 }
 
+div[clear] {
+    clear: both;
+}
+
+img.emoji {
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+    box-shadow: none;
+}
+
+
+.bottom-nav {
+    float: right;
+}
+
+.bottom-nav > .nav-item:not(:last-child)::after {
+    content: "\00a0|\00a0";
+    display: inline-block;
+}
+
+.nav-item {
+    text-decoration: none;
+}
+
+.nav-item.nav-current {
+    text-decoration: underline;
+}
+
 /* Blog Type Defination */
 
 .blog-chinese p::before {

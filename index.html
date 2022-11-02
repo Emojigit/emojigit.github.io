@@ -2,6 +2,7 @@
 layout: default
 ---
 <h1>{{ site.name }}</h1>
+{% include index-about.md %}
 {% for post in site.posts %}
 <hr />
 <a class="indexList" href="{{ post.url }}">
@@ -9,6 +10,4 @@ layout: default
     <p>{{ post.excerpt }}</p>
 </a>
 {% endfor %}
-<hr />
-{% include copyright.html %}
 
