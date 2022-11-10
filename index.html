@@ -7,7 +7,7 @@ layout: default
 <hr />
 <a class="indexList" href="{{ post.url }}">
     <h2>{{ post.title }}</h2>
-    <p>{%if post.custom_excerpt %}{{ post.custom_excerpt }}{% else %}{{ post.excerpt }}{% endif %}</p>
+    {%if post.excerpt %}<p>{{ post.excerpt }}</p>{% else %}{% endif %}
 </a>
 {% endfor %}
 
