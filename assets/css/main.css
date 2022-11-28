@@ -101,7 +101,7 @@ img.emoji {
 
 /* Blog Type Defination */
 
-.blog-chinese p::before {
+.blog-chinese #blogContent p::before {
     content: "　　"; /* Two full-width spaces */
     display: inline;
 }
