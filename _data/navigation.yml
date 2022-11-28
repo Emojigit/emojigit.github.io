@@ -1,2 +1,5 @@
 - name: About
   link: /about.html
+- name: Mastodon
+  link: https://mstdn.social/@1F616EMO
+  custom: rel="me"
