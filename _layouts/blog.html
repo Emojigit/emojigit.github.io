@@ -3,8 +3,10 @@ layout: default
 ---
 <div class="blog blog-{% if page.type %}{{ page.type }}{% else %}default{% endif %}">
 <div style="margin-top:10px;position:relative">
-    <div style="float:left;" id="back"><a href="/">&lt; Back to mainpage</a></div></div>
+    <div style="float:left;" id="back"><a href="/">&lt; Back to mainpage</a></div>
     <div style="float:right" id="edit"><a href="https://github.com/Emojigit/emojigit.github.io/edit/master/{{ page.path }}">Edit</a></div>
+</div>
+<div clear></div>
 <h1>{{ page.title }}</h1>
 <div id="blogContent">{{ content }}</div>
 {% if page.discuss %}<script src="https://giscus.app/client.js"
