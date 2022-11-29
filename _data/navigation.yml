@@ -1,9 +1,9 @@
-- name: About
+- name: 關於本喵
   link: /about.html
 - name: Mastodon
   link: https://mstdn.social/@1F616EMO
   custom: rel="me"
-- name: History
+- name: 修訂歷史
   link: https://github.com/Emojigit/emojigit.github.io/commits/master
-- name: Source
+- name: 原始碼
   link: https://github.com/Emojigit/emojigit.github.io
