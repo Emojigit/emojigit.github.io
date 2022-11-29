@@ -1,11 +1,11 @@
 # _plugins/url_decode.rb
-# https://izhangzhihao.github.io/2018/02/03/Url-decode-in-jekyll/
+# https://izhangzhihao.github.io/2018/02/03/Url-decode-in-jekyll/, modified
 require 'liquid'
-require 'uri'
+require 'webrick'
 
 module URLDecode
   def url_decode(url)
-    return URI.decode(url)
+    return WEBrick::HTTPUtils.unescape(url)
   end
 end
 
