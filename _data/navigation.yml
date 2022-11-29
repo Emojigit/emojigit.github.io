@@ -3,3 +3,5 @@
 - name: Mastodon
   link: https://mstdn.social/@1F616EMO
   custom: rel="me"
+- name: Source
+  link: https://github.com/Emojigit/emojigit.github.io
