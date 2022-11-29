@@ -5,4 +5,20 @@ layout: default
 <div style="margin-top:10px"><a href="/">&lt; Back to mainpage</a></div>
 <h1>{{ page.title }}</h1>
 <div id="blogContent">{{ content }}</div>
+{% if page.discuss %}<script src="https://giscus.app/client.js"
+        data-repo="Emojigit/emojigit.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyNzgzMzQ5MTI="
+        data-category="Giscus"
+        data-category-id="DIC_kwDOEJcNwM4CS0Lu"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-TW"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>{% endif %}
 </div>
