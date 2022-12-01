@@ -24,6 +24,9 @@
         --a: blue;
         --details: lightgrey;
     }
+    .giscus, .bottom-nav, #back, #edit {
+        display: none;
+    }
 }
 
 :root {
